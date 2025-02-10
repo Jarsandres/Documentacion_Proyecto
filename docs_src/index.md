@@ -6,4 +6,4 @@ Esta es la página principal de la documentación. Aquí puedes encontrar inform
 - [Guía de Referencia](Guia_de_Referencia.md)
 - [Guía de Instalación](Guia_de_Instalacion.md)
 
-¡Estoy prendiendo a docuementar! 
+¡Estoy aprendiendo a docuementar! 
