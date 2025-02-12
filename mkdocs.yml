@@ -1,14 +1,12 @@
 site_name: Documentación del Proyecto
 docs_dir: docs_src
 nav:
-  - Inicio: README.md
+  - Inicio: index.md
   - Manual de Usuario: Manual_de_Usuario.md
   - Guía de Referencia: Guia_de_Referencia.md
   - Guía de Instalación: Guia_de_Instalacion.md
-  - Descargar en PDF:
-      - Manual de Usuario: Manual_de_Usuario.PDF
-      - Guía de Referencia: Guia_de_Referencia.PDF
-      - Guía de Instalación: Guia_de_Instalacion.PDF
+  - Descargar en PDF: PDF.md
+
 
 theme: readthedocs
 
@@ -19,13 +17,10 @@ plugins:
       author: "Joel"
       copyright: "CC0 1.0 Universal"
       output_path: "pdf/documentacion_proyecto.pdf"
+      cover: true
+      back_cover: false
+      cover_title: "Documentación del Proyecto"
+      cover_subtitle: "Generación de documentación en PDF con MkDocs"
 
-cover: true
-back_cover: false
-cover_title: "Documentación del Proyecto"
-cover_subtitle: "Generación de documentación en PDF con MkDocs"
-
-toc_title: "Índice"
-toc_level: 2
-ordered_chapter_level: 2
-
+extra:
+  generator: false
