@@ -7,20 +7,4 @@ nav:
   - Guía de Instalación: Guia_de_Instalacion.md
   - Descargar en PDF: PDF.md
 
-
 theme: readthedocs
-
-plugins:
-  - search
-  - pdf-export
-  - with-pdf:
-      author: "Joel"
-      copyright: "CC0 1.0 Universal"
-      output_path: "pdf/documentacion_proyecto.pdf"
-      cover: true
-      back_cover: false
-      cover_title: "Documentación del Proyecto"
-      cover_subtitle: "Generación de documentación en PDF con MkDocs"
-
-extra:
-  generator: false
